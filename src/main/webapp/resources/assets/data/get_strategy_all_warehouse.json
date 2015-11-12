@@ -1,0 +1,76 @@
+[
+    {
+        "policy_warehouse_id":"1",
+        "policy_warehouse_name": "默认库",
+        "policy_warehouse_desc":"本系统运行时每类策略默认存在的策略库"
+    },
+    {
+        "policy_warehouse_id":"2",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_id":"3",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_id":"4",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_id":"5",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_id":"6",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_id":"7",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_id":"8",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_id":"9",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_id":"10",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_id":"11",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_id":"12",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_id":"13",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    },
+    {
+        "policy_warehouse_id":"14",
+        "policy_warehouse_name": "greenet_1",
+        "policy_warehouse_desc":"greenet.net.cn"
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "name": "设备管理",
+    "iconOpen": "/WebManage/assets/js/plugin/tree/img/diy/open.png",
+    "iconClose": "/WebManage/assets/js/plugin/tree/img/diy/close.png",
+    "open": "true",
+    "children": [
+        {
+            "name": "只允许查看设备列表"
+        },
+        {
+            "name": "新增设备"
+        },
+        {
+            "name": "编辑设备"
+        },
+        {
+            "name": "连接/断开设备"
+        },
+        {
+            "name": "设备通用信息下发"
+        },
+        {
+            "name": "查看设备详细信息"
+        }
+    ]
+}

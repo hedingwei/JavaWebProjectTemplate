@@ -1,0 +1,181 @@
+div.dataTables_length{
+	margin-left: 5px;
+}
+div.dataTables_length label {
+	text-align: left; float: left;
+}
+div.dataTables_length select {
+	width: 75px;
+}
+div.dataTables_filter{
+	margin-right: 5px;
+}
+div.dataTables_filter label {
+	float: right;
+}
+div.dataTables_info {
+	margin-left: 5px;
+	padding-top: 8px;
+}
+div.dataTables_paginate {
+	margin: 0px 5px 0 0; float: right;
+}
+table.table {
+	clear: both; margin-bottom: 6px !important; /*max-width: none !important*/;
+}
+table.table thead .sorting {
+	cursor: pointer;
+}
+table.table thead .sorting_asc {
+	cursor: pointer;
+}
+table.table thead .sorting_desc {
+	cursor: pointer;
+}
+table.table thead .sorting_asc_disabled {
+	cursor: pointer;
+}
+table.table thead .sorting_desc_disabled {
+	cursor: pointer;
+}
+table.table thead .sorting {
+	background: url("img/sort_both.png") no-repeat right;
+}
+table.table thead .sorting_asc {
+	background: url("img/sort_asc.png") no-repeat right;
+}
+table.table thead .sorting_desc {
+	background: url("img/sort_desc.png") no-repeat right;
+}
+table.table thead .sorting_asc_disabled {
+	background: url("img/sort_asc_disabled.png") no-repeat right;
+}
+table.table thead .sorting_desc_disabled {
+	background: url("img/sort_desc_disabled.png") no-repeat right;
+}
+table.dataTable th:active {
+	
+}
+div.dataTables_scrollHead table {
+	margin-bottom: 0px !important; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;
+}
+div.dataTables_scrollHead table thead tr:last-child th:first-child {
+	border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;
+}
+div.dataTables_scrollHead table thead tr:last-child td:first-child {
+	border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;
+}
+div.dataTables_scrollBody table {
+	margin-bottom: 0px !important; border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+div.dataTables_scrollBody tbody tr:first-child th {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+div.dataTables_scrollBody tbody tr:first-child td {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+div.dataTables_scrollFoot table {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+.table tbody tr.active td {
+	color: white; background-color: rgb(0, 136, 204);
+}
+.table tbody tr.active th {
+	color: white; background-color: rgb(0, 136, 204);
+}
+.table tbody tr.active:hover td {
+	background-color: rgb(0, 117, 176) !important;
+}
+.table tbody tr.active:hover th {
+	background-color: rgb(0, 117, 176) !important;
+}
+.table-striped tbody tr:nth-child(2n+1).active td {
+	background-color: rgb(1, 126, 188);
+}
+.table-striped tbody tr:nth-child(2n+1).active th {
+	background-color: rgb(1, 126, 188);
+}
+table.DTTT_selectable tbody tr {
+	cursor: pointer;
+}
+div.DTTT .btn {
+	color: rgb(51, 51, 51) !important; font-size: 12px;
+}
+div.DTTT .btn:hover {
+	text-decoration: none !important;
+}
+ul.dropdown-menu.DTTT_dropdown a {
+	color: rgb(51, 51, 51) !important;
+}
+ul.dropdown-menu.DTTT_dropdown li {
+	position: relative;
+}
+ul.dropdown-menu.DTTT_dropdown li:hover a {
+	color: white !important; background-color: rgb(0, 136, 204);
+}
+div.modal.DTTT_print_info {
+	height: 150px; text-align: center; margin-top: -75px;
+}
+div.DTTT_print_info h6 {
+	margin: 1em; line-height: 28px; font-size: 28px; font-weight: normal;
+}
+div.DTTT_print_info p {
+	line-height: 20px; font-size: 14px;
+}
+div.DTFC_LeftHeadWrapper table {
+	background-color: white;
+}
+div.DTFC_LeftFootWrapper table {
+	background-color: white;
+}
+div.DTFC_RightHeadWrapper table {
+	background-color: white;
+}
+div.DTFC_RightFootWrapper table {
+	background-color: white;
+}
+table.DTFC_Cloned tr.even {
+	background-color: white;
+}
+div.DTFC_RightHeadWrapper table {
+	margin-bottom: 0px !important; border-top-right-radius: 0px !important; border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;
+}
+div.DTFC_LeftHeadWrapper table {
+	margin-bottom: 0px !important; border-top-right-radius: 0px !important; border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;
+}
+div.DTFC_RightHeadWrapper table thead tr:last-child th:first-child {
+	border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;
+}
+div.DTFC_RightHeadWrapper table thead tr:last-child td:first-child {
+	border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;
+}
+div.DTFC_LeftHeadWrapper table thead tr:last-child th:first-child {
+	border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;
+}
+div.DTFC_LeftHeadWrapper table thead tr:last-child td:first-child {
+	border-bottom-right-radius: 0px !important; border-bottom-left-radius: 0px !important;
+}
+div.DTFC_RightBodyWrapper table {
+	margin-bottom: 0px !important; border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+div.DTFC_LeftBodyWrapper table {
+	margin-bottom: 0px !important; border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+div.DTFC_RightBodyWrapper tbody tr:first-child th {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+div.DTFC_RightBodyWrapper tbody tr:first-child td {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+div.DTFC_LeftBodyWrapper tbody tr:first-child th {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+div.DTFC_LeftBodyWrapper tbody tr:first-child td {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+div.DTFC_RightFootWrapper table {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+div.DTFC_LeftFootWrapper table {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}

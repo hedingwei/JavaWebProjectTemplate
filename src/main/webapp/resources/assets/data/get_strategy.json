@@ -1,0 +1,22 @@
+[
+    {
+        "Message_Type": "0x00",
+        "strategy_id": "1",
+        "strategy_name": "默认库"
+    },
+    {
+        "Message_Type": "0x00",
+        "strategy_id": "2",
+        "strategy_name": "通用库一"
+    },
+    {
+        "Message_Type": "0x01",
+        "strategy_id": "3",
+        "strategy_name": "默认库"
+    },
+    {
+        "Message_Type": "0x01",
+        "strategy_id": "3",
+        "strategy_name": "流量结果上报库一"
+    }
+]

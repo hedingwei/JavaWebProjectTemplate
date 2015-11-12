@@ -1,0 +1,35 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+    <mapper namespace="com.ambimmort.nisp3.mappers.default">
+
+
+    <!--<select id="listRepositories" resultType="com.ambimmort.nisp3.rest.QRepository">-->
+        <!--SELECT * FROM t_repository LIMIT #{start},#{pageCount};-->
+    <!--</select>-->
+
+    <!--<select id="searchRepositoriesByName" resultType="com.ambimmort.nisp3.rest.QRepository">-->
+        <!--SELECT * FROM t_repository WHERE name like #{content} LIMIT #{start},#{pageCount};-->
+    <!--</select>-->
+
+    <!--<select id="searchRepositoriesByDescription" resultType="com.ambimmort.nisp3.rest.QRepository">-->
+        <!--SELECT * FROM t_repository WHERE description like #{coontent} LIMIT #{start},#{pageCount};-->
+    <!--</select>-->
+
+    <select id="userList" resultType="hashMap">
+        SELECT * FROM t_product;
+    </select>
+
+    <select id="examList" resultType="hashMap">
+        SELECT * FROM t_area ;
+    </select>
+
+
+    <!--<select id="listtest" resultType="hashMap">-->
+        <!--SELECT id as t_id, name as t_name from t_role;-->
+    <!--</select>-->
+
+    <!--<select id="qeview" resultType="hashMap">-->
+        <!--SELECT * from t_question;-->
+    <!--</select>-->
+</mapper>

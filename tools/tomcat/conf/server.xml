@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Server port="-1" shutdown="SHUTDOWN">
+    <Service name="Catalina">
+        <Connector port="9098" protocol="HTTP/1.1"
+                   connectionTimeout="20000"
+                   redirectPort="8443" />
+
+        <Engine name="Catalina" defaultHost="localhost">
+            <Host name="localhost"  appBase="webapps" unpackWARs="true" autoDeploy="true">
+                <Context path="/ktspider" docBase="${catalina.home}/../web" reloadable="true" useHttpOnly="true">
+                </Context>
+                <Valve className="org.apache.catalina.valves.AccessLogValve"
+                       directory="${catalina.home}/../logs" prefix="localhost_access_log" suffix=".log"
+                       pattern="%{x_m_username}r %a %l %u %m %b %t %s %S %b %D &quot;%{Referer}i&quot; &quot;%{User-Agent}i&quot; " />
+            </Host>
+        </Engine>
+
+    </Service>
+</Server>
